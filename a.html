@@ -1,0 +1,43 @@
+import React from "react";
+
+const Portfolio = () => {
+  return (
+    <div className="min-h-screen bg-gray-900 text-white p-6">
+      {/* Header Section */}
+      <header className="text-center text-4xl font-bold p-6">My Portfolio</header>
+      
+      {/* About Section */}
+      <section className="text-center p-6">
+        <h2 className="text-2xl font-semibold">Hello, I'm [Your Name]</h2>
+        <p className="text-gray-400 mt-2">A passionate developer building amazing web experiences.</p>
+      </section>
+      
+      {/* Projects Section */}
+      <section className="p-6">
+        <h2 className="text-3xl font-semibold text-center">Projects</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          <div className="bg-gray-800 p-4 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold">Project 1</h3>
+            <p className="text-gray-400">Description of the project.</p>
+          </div>
+          <div className="bg-gray-800 p-4 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold">Project 2</h3>
+            <p className="text-gray-400">Description of the project.</p>
+          </div>
+          <div className="bg-gray-800 p-4 rounded-xl shadow-lg">
+            <h3 className="text-xl font-bold">Project 3</h3>
+            <p className="text-gray-400">Description of the project.</p>
+          </div>
+        </div>
+      </section>
+      
+      {/* Contact Section */}
+      <section className="p-6 text-center">
+        <h2 className="text-3xl font-semibold">Contact Me</h2>
+        <p className="text-gray-400 mt-2">Email: your.email@example.com</p>
+      </section>
+    </div>
+  );
+};
+
+export default Portfolio;
