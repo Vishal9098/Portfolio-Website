@@ -23,7 +23,7 @@ function init() {
                 "featureType": "administrative.country",
                 "elementType": "geometry",
                 "stylers": [
-                    {
+                    { 
                         "visibility": "simplified"
                     },
                     {
